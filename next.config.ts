@@ -1,7 +1,24 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from "next"
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  async rewrites() {
+    return [
+      {
+        source: "/api/cars",
+        destination: "https://testing-api.ru-rating.ru/cars",
+      },
+    ]
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'ru-msk-dr3-1.store.cloud.mts.ru',
+        port: '',
+        pathname: '/store/images/**',
+      },
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig

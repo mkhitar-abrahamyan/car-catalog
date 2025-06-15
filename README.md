@@ -32,8 +32,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ### Next Steps:
 1. **Add Links**:
-    - GitHub `[GitHub Repository URL]`.
-    - Vercel `[Vercel Deployment URL]`.
+    [GitHub](https://github.com/mkhitar-abrahamyan/car-catalog).
+    [Vercel](https://github.com/mkhitar-abrahamyan/car-catalog).
 2. **Prettier Configuration**:
     ```json
     {
