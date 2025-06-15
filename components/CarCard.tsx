@@ -15,7 +15,7 @@ const CarCard = ({ car }: { car: Car }) => {
         <Image
           src={car.images.image[0] || "/placeholder-image.jpg"}
           alt={`${car.mark_id} ${car.folder_id}`}
-          fill // Replaces object-contain for responsive sizing
+          fill
           className="object-contain"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
