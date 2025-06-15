@@ -33,7 +33,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ### Next Steps:
 1. **Add Links**:
     [GitHub](https://github.com/mkhitar-abrahamyan/car-catalog).
-    [Vercel](https://github.com/mkhitar-abrahamyan/car-catalog).
+    [Vercel](https://car-catalog-mpbi.vercel.app/).
 2. **Prettier Configuration**:
     ```json
     {
